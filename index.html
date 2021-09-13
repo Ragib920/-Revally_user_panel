@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>user profile</title>
+</head>
+<body>
+    <!--==========================================================
+     Banner html part starts here 
+    ===========================================================-->
+    <section class="container-fluid banner">
+        <div class="container">
+            <div class="row row-cols-auto">
+                <div class="col-lg-4 col-md-4 ">
+                    <img src="images/profile.jpg" class="profile-img" alt="">
+                </div>
+                <div class=" banner-text col-lg-4 col-md-4">
+                    <h5>User Name</h5>
+                    <h6>@userID</h6>
+                </div>
+                <div class="col-lg-4 col-md-4 ">
+                    <a class="banner-button btn btn-outline-success float-end" href="RV-points.html">0 RV POINTS</a>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!--========================================================== 
+        main-body html part starts here 
+    ===========================================================-->
+    
+    <section class="main-body">
+        <div class="container">
+            <!--=====main-body-header html part starts here===-->
+            <div class="row">
+                <div class="rating col-lg-10">
+                    <span class="rating-text">Rating</span>
+                    <span class="fa fa-star "></span>
+                    <span class="fa fa-star "></span>
+                    <span class="fa fa-star "></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="f-number">125</span>
+                    <span class="f-text">Follower</span>
+                    <span class="f-number1">369</span>
+                    <span class="f-text1">Following</span>
+                </div>
+                <div class="btn col-lg-2">
+                    <a class="mb-btn  btn btn-outline-success float-end" href="edit_profle.html"><i class="far fa-edit"></i>Edit Profile</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="body-main-part">
+                    <div class="side-manu col-lg-3 float-lg-start ">
+                        <div class="page-header">
+                            <span class="text-1">Home ></span>
+                            <span class="text">user's Profile</span>
+                        </div>
+                        <!--=====side-bar html part starts here===-->
+                        <div class="my-time-line">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><i class="icon fas fa-hiking"></i><a class="active" class="active"href="index.html">Timeline</a></li>
+                                <li class="list-group-item ">
+                                    <i class="icon fas fa-file-excel"></i><a href="reviews.html">Reviews</a>
+                                    <span class="">(14)</span>
+                                </li>
+                                <li class="list-group-item"><i class="icon far fa-envelope"></i><a href="messages.html">Messages</a></li>
+                                <li class="list-group-item"><i class="icon fas fa-user-friends"></i><a href="followers.html">Followers</a></li>
+                                <li class="list-group-item"><i class="icon far fa-image"></i><a href="photos.html">Photos</a></li>
+                                <li class="list-group-item"><i class="icon fas fa-coins"></i><a href="RV-points.html">RV Points</a></li>
+                                <button class="accordion btn-text-color"><i class="icon-1 fas fa-tools"></i>Settings</button>
+                                <div class=" panel">
+                                    <li class=""><a href="account-details.html">My Account Details</a></li>
+                                    <li class=""><a href="email-alerts.html">Email Alerts</a></li>
+                                    <li class=""><a href="mobiles.html">Mobiles</a></li>
+                                    <li class=""><a href="interestes.html">Interestes</a></li>
+                                    <li class=""><a href="content-filter.html">Contact Filters</a></li>
+                                    <li class=""><a href="change-password.html">Change Password</a></li>
+                                </div>
+                            </ul>
+                        </div>
+                        <!--=====notification html part starts here ===-->
+                        <div class="notification">
+                            <span class="header">Online Shopping Websites</span>
+                            <span class="float-end"><button type="button" class="btn-close" aria-label="Close"></button></span>
+                            <p class="text">Online shopping is fast becoming the main shopping choice for many people. So start sharing your personal experience with us. Click on the link to know more...</p>
+                            <a class="link" href="">Click Here</a>
+                        </div>
+                    </div>
+                    <div class="body-content col-lg-6 float-lg-start">
+                        <!--==========================================================
+                        main-body center content html part starts here
+                        ===========================================================-->
+                        <!--=====notification1 html part starts here ===-->
+                        <div class="notification" id="hide">
+                            <span class="header">Online Shopping Websites</span>
+                            <span class="float-end"><button type="button" class="btn-close" aria-label="Close"></button></span>
+
+                            <p class="text">Online shopping is fast becoming the main shopping choice for many people. So start sharing your personal experience with us. Click on the link to know more...</p>
+                            <a class="link" href="">Click Here</a>
+                        </div>
+                        <div class="header-1">
+                            <p class="text">User's Timeline</p>
+                        </div>
+                        <!--=====Review Item html part starts here ===-->
+                        <div class="review-item ">
+                            <div class="cont-header">
+                                <span>Reviewed</span>
+                                <span class="text-1">Huawei Y9 Prime</span>
+                            </div>
+                            <div class="cont-body-1">
+                                <span ><img src="images/1.jpg" class="product-img" alt=""></span>
+                                <span class="text">Huawei Y9 Prime</span>
+                            </div>
+                            <div class="cont-body-2">
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star "></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="text">2 days ago</span>
+                                <span class="text-1"><i class="fas fa-eye"></i>39 Views</span>
+                                <p>It's Performing well. Over all in this kind of budget you should try this, pop up camera, Ram management is so well, display color gorgeous, sound quality pretty good.</p>
+                            </div>
+                            <div class="sm-icon float-end">
+                                <span class="icon"><a href=""><i class=" fab fa-facebook facebook"></i></a></span>
+                                <span class="icon"><a href=""><i class="fab fa-twitter twitter"></i></a></span>
+                                <span class="icon"><a href=""><i class="fas fa-envelope email"></i></a></span>
+                                <span class="icon"><a href=""><i class="fas fa-link copy-link"></i></a></span>
+                            </div><br>
+                            <hr>
+                            <div class="cont-body-3">
+                                <span class="icon"><i class="fas fa-thumbs-up"></i> </span>
+                                <span class="text">Like 0</span>
+                                <span class="icon"><i class="fas fa-comment-alt"></i> </span>
+                                <span class="text">Comment 0</span>
+                                <span class="icon"><i class="far fa-edit"></i></span>
+                                <span class="text">Edit</span>
+                            </div>
+                        </div>
+                         <!--=====Followertml html part starts here ===-->
+                        <div class="follower">
+                            <p class="text-1 float-start">Followed </p>
+                            <p class="text-2 ">manastakira</p>
+                            <p class="text-3">7 days ago</p>
+                            <img src="images/profile.jpg" class="profile-img" alt="">
+                        </div>
+                    </div>
+                      <!--==========================================================
+                        main-body right side content css part starts here
+                        ===========================================================-->
+                    <div class="right-content col-lg-3 float-lg-end">
+                        <div class="header">
+                            <!-- <p>Time Viewed <strike>291</strike>times </p>  -->
+                            <p class="text-1 float-start">Time Viewed</p>
+                            <p class="text-2 float-start">291</p>
+                            <p class="text-3">times</p>
+                        </div>
+                        <!--=====people you may know html part starts here ===-->
+                        <div class="suggest">
+                            <p class="text">People You May Know</p>
+                            <div class="row row-cols-auto float-start">
+                                <div class="img col-lg-3 float-lg-start">
+                                    <img src="images/profile.jpg" class="profile-img" alt="">
+                                </div>
+                                <div class="col-lg-6">
+                                    <span class="text-1">Ragib Shahriar</span>
+                                    <span class="text-2">ajkhdhasd.Ltd</span>
+                                </div>
+                                <div class="col-lg-3 float-end">
+                                    <li class="item"><a href=""><i class="fas fa-times"></i></a> </li>
+                                    <li class="item"><a href=""><i class="fas   fa-user-plus"></i></a></li>
+                                </div>
+                            </div>
+                            <div class="row row-cols-auto float-start">
+                                <div class="img col-lg-3 float-lg-start">
+                                    <img src="images/profile.jpg" class="profile-img" alt="">
+                                </div>
+                                <div class="col-lg-6">
+                                    <span class="text-1">Ragib Shahriar</span>
+                                    <span class="text-2">ajkhdhasd.Ltd</span>
+                                </div>
+                                <div class="col-lg-3 ">
+                                    <li class="item"><a href=""><i class="fas fa-times"></i></a> </li>
+                                    <li class="item"><a href=""><i class="fas   fa-user-plus"></i></a></li>
+                                </div>
+                            </div>
+                            <div class="row row-cols-auto float-start">
+                                <div class="img col-lg-3 float-lg-start">
+                                    <img src="images/profile.jpg" class="profile-img" alt="">
+                                </div>
+                                <div class="col-lg-6">
+                                    <span class="text-1">Ragib Shahriar</span>
+                                    <span class="text-2">ajkhdhasd.Ltd</span>
+                                </div>
+                                <div class="col-lg-3 ">
+                                    <li class="item"><a href=""><i class="fas fa-times"></i></a> </li>
+                                    <li class="item"><a href=""><i class="fas   fa-user-plus"></i></a></li>
+                                </div>
+                            </div>
+                            <div class="row row-cols-auto float-start">
+                                <div class="img col-lg-3 float-lg-start">
+                                    <img src="images/profile.jpg" class="profile-img" alt="">
+                                </div>
+                                <div class="col-lg-6">
+                                    <span class="text-1">Ragib Shahriar</span>
+                                    <span class="text-2">ajkhdhasd.Ltd</span>
+                                </div>
+                                <div class="col-lg-3 ">
+                                    <li class="item"><a href=""><i class="fas fa-times"></i></a> </li>
+                                    <li class="item"><a href=""><i class="fas   fa-user-plus"></i></a></li>
+                                </div>
+                            </div>
+                            <div class="col-lg">
+                              <a class="see-all-btn btn btn-outline-success" href="people_you_may_know.html">See All</a>
+                            </div>
+                        </div>
+                        <!--=====biography html part starts here ===-->
+                        <div class="bio">
+                            <div class="row row-cols-auto">
+                                <div class="col-lg-6">
+                                    <p class="text float-start">Biography</p>
+                                </div>
+                                <div class="col-lg-6">
+                                    <a href="edit_profle.html"><i class="edit-icon far fa-edit float-end"></i></a> 
+                                </div>
+                            </div>
+                            <div class="row-1">
+                                <div class="col-lg">
+                                    <p class="text-2">Some word from user</p>
+                                    <p class="text-1 float-start">Name:</p>
+                                    <p class="text-2">Ragib Shahriar</p>
+                                    <p class="text-1 float-start">Hometown:</p>
+                                    <p class="text-2">Pune</p>
+                                    <p class="text-1 float-start">Country:</p>
+                                    <p class="text-2">India</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>   

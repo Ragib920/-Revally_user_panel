@@ -1,0 +1,998 @@
+*{
+    padding: 0px;
+    margin: 0px;
+} 
+a,a:hover,a:focus{
+    text-decoration: none;
+}
+ul,ol,li{
+    list-style-type: none;
+}
+/* =========================================================
+banner css part starts here
+========================================================= */
+
+.banner{
+    height: 200px;
+    background-image: url('../images/banner.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ===profile picture css part starts here=== */
+.banner .container .profile-img{
+    height: 200px;
+    width: 200px;
+    margin-top: 65px;
+}
+/* ===profile text css part starts here=== */
+.banner .container .banner-text h5{
+    color : white;
+    margin-top: 80px;
+    text-align: center;
+}
+.banner .container .banner-text h6{
+    color : orange;
+    text-align: center;
+}
+/* ===profile button css part starts here=== */
+.banner .container .banner-button{
+    text-align: center;
+    color: #6ccf6c;
+    margin-top: 150px;
+    background-color: white;
+    border-color: #6ccf6c;
+}
+.banner .container .banner-button:hover{
+    text-align: center;
+    color: white;
+    background-color: #6ccf6c;
+}
+/* =========================================================
+main-body css part starts here
+========================================================= */
+.main-body{
+    background:#fafafa;
+    margin-bottom:10px;
+}
+.main-body .container .row .rating {
+    padding-left: 220px;
+} 
+.main-body .container .row .rating .rating-text{
+    font-size:small;
+    padding-top: 40px;
+} 
+.main-body .container .row .rating .fa{
+    padding-top: 40px;
+    
+} 
+.main-body .container .row .rating .f-number{
+   padding-left: 50px;
+   font-size: larger;
+   font-weight: bold;
+} 
+.main-body .container .row .rating .f-number1{
+    padding-left: 50px;
+    font-size: larger;
+    font-weight: bold;
+ } 
+.main-body .container .row .btn .mb-btn{
+   margin-top: 5px;
+   color: #6ccf6c;
+   text-align: center;
+   background-color: white;
+   border-color: #6ccf6c;
+} 
+.main-body .container .row .btn .mb-btn:hover{
+   background-color: #6ccf6c;
+   color: white;
+} 
+.main-body .container .body-main-part{
+    border-style: solid;
+    border-width: thin;
+    margin-top: 40px;
+    border-color: #dbdbdb;
+    background: #ffffff;
+ } 
+ /* =========================================================
+main-body left side content css part starts here
+========================================================= */
+ .main-body .container .body-main-part .side-manu .page-header{
+    font-size: 12px;
+    margin-top: 20px;
+ } 
+ .main-body .container .body-main-part .side-manu .page-header .text-1:hover{
+    color: #6ccf6c;
+ }
+/* ===side-bar css part starts here=== */
+.main-body .container .body-main-part .side-manu .my-time-line{
+   margin-top: 23px;
+   border-style: solid;
+   border-width: thin;
+   border-color: #dbdbdb;
+   margin-left: 25px;
+   margin-right: 30px;
+   font-size: 14px;
+   font-weight: 500;
+   margin-bottom: 10px;
+} 
+.main-body .container .body-main-part .side-manu .my-time-line .icon{
+   padding-right:20px;
+  color: #8d8c8c;
+} 
+.main-body .container .body-main-part .side-manu .my-time-line .icon-1{
+  padding-right:20px;
+  color: #8d8c8c;
+} 
+.main-body .container .body-main-part .side-manu .my-time-line a{
+  color: #2b2b2b;
+} 
+.main-body .container .body-main-part .side-manu .my-time-line a:hover{
+  color: #6ccf6c;
+}
+.main-body .container .body-main-part .side-manu .my-time-line .active{
+   color: #6ccf6c;
+ }
+.main-body .container .body-main-part .side-manu .my-time-line .btn-text-color:hover{
+  color: #6ccf6c;
+}
+/* ===accordion  css part starts here===*/
+.main-body .container .body-main-part .side-manu .my-time-line .accordion {
+  background-color:white;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-weight: 500;
+}
+.main-body .container .body-main-part .side-manu .my-time-line button{
+  padding-bottom: 10px;
+}
+.main-body .container .body-main-part .side-manu .my-time-line .panel {
+  padding: 0 25px;
+  display: none;
+  overflow: hidden;
+  border-style: none;
+}
+.main-body .container .body-main-part .side-manu .my-time-line .panel li{
+  border-top-style: solid;
+  border-width: thin;
+  border-color: #dbdbdb;
+  padding-top: 7px;
+  padding-bottom:7px;
+  padding-left: 30px;
+} /* ===notification css part starts here=== */
+ .main-body .side-manu  .notification{
+    margin-right: 10px;
+    border-style: solid;
+    border-width: thin;
+    margin-top: 20px;
+    border-color: #dbdbdb;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+    background:#fafafa;
+ }
+ .main-body .side-manu .notification .header{
+    font-weight: bold;
+ }
+ .main-body .side-manu .notification .text{
+   margin-top: 10px;
+}
+ .main-body .side-manu .notification .link{
+   color:#6ccf6c;
+}
+.main-body .side-manu .notification a{
+   color: black;
+}
+
+ 
+  /* =========================================================
+main-body center content css part starts here
+========================================================= */
+ .main-body .container .body-main-part .body-content{
+   padding-right: 20px;
+   margin-bottom: 10px;
+}
+ /* ===notification1 css part starts here===*/
+.main-body .container .body-main-part .body-content .notification{
+    border-style: solid;
+    border-width: thin;
+    margin-top: 60px;
+    border-color: #dbdbdb;
+    font-size: 14px;
+    padding: 15px;
+    text-align: center;
+    background:#fafafa;
+}
+.main-body .container .body-main-part .body-content .notification .header{
+   font-weight: bold;
+}
+.main-body .container .body-main-part .body-content .notification .text{
+   margin-top: 10px;
+}
+.main-body .container .body-main-part .body-content .notification .link{
+   color:#6ccf6c;
+}
+.main-body .container .body-main-part .body-content .notification a{
+   color: black;
+}
+
+ .main-body .container .body-main-part .body-content .header-1 .text{
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 15px;
+    color: #2b2b2b;
+ }
+  /* ===Followers css part starts here===*/
+ .main-body .container .body-main-part .body-content .follower{
+    border-style: solid;
+    border-width: thin;
+    border-color: #dbdbdb;
+    font-size: 14px;
+    text-align: left;
+    padding:20px;
+    margin-bottom: 10px;
+ }
+ .main-body .container .body-main-part .body-content .follower .text-1{
+    padding-right: 10px;
+ }
+ .main-body .container .body-main-part .body-content .follower .text-2{
+    color: red;
+ }
+ .main-body .container .body-main-part .body-content .follower .text-3{
+    font-size: 12px;
+    color: #737373;
+ }
+ .main-body .container .body-main-part .body-content .follower img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+ }
+   /* =========================================================
+main-body right side content css part starts here
+========================================================= */
+
+.main-body .container .body-main-part .right-content{
+   margin-top: 46px;
+}
+.main-body .container .body-main-part .right-content .header{
+    border-style: solid;
+    border-width: thin;
+    margin-top: 14px;
+    border-color: #dbdbdb;
+    padding-top: 15px;
+    font-size: 14px;
+ }
+ .main-body .container .body-main-part .right-content .header .text-1{
+    padding-left: 50px;
+    padding-right: 5px;
+ }
+ .main-body .container .body-main-part .right-content .header .text-2{
+    padding-right: 5px;
+    color: red;
+ }
+  /* ===pepople you may knoow css part starts here===*/
+ .main-body .container .body-main-part .right-content .suggest{
+    border-style: solid;
+    border-width: thin;
+    margin-top: 15px;
+    border-color: #dbdbdb;
+    font-size: 12px;
+    padding: 20px;
+ }
+ .main-body .container .body-main-part .right-content .suggest .text{
+    font-size: 16px;
+    color: #353535;
+    font-weight: 600;
+    border-bottom: solid;
+    border-bottom-width:thin ;
+    border-color: #dbdbdb;
+ }
+ .main-body .container .body-main-part .right-content .suggest .row {  
+    border-bottom: solid;
+    border-bottom-width:thin ;
+    border-color: #dbdbdb;
+    padding-bottom:15px;
+    padding-top: 10px;
+ }
+
+ .main-body .container .body-main-part .right-content .suggest .row img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-left: 10px;
+ }
+ .main-body .container .body-main-part .right-content .suggest .row .text-2{
+    color:#6ccf6c;
+ }
+ .main-body .container .body-main-part .right-content .suggest .row .item{  
+    font-size: 16px;
+    padding-left: 20px;
+    border-color: #dbdbdb;
+    
+ }
+ .main-body .container .body-main-part .right-content .suggest .row a{  
+   color: rgba(141, 141, 141, 0.774);
+}
+ .main-body .container .body-main-part .right-content .see-all-btn{  
+   width: 100%;
+   margin-top: 15px;
+   color: #6ccf6c;
+   text-align: center;
+   background-color: white; 
+   border-color: #6ccf6c;
+ }
+ .main-body .container .body-main-part .right-content .see-all-btn:hover{  
+   color:  white;
+   background-color:#6ccf6c;
+}
+ /* ===biography css part starts here===*/
+.main-body .container .body-main-part .right-content .bio .row{  
+    border-bottom: solid;
+    border-bottom-width:thin ;
+    border-color: #dbdbdb;
+    margin-bottom: 10px;
+ }
+.main-body .container .body-main-part .right-content .bio {  
+    border-style: solid;
+    border-width: thin;
+    margin-top: 20px;
+    border-color: #dbdbdb;
+    font-size: 14px;
+    padding: 20px;
+    margin-bottom: 20px;
+ }
+ .main-body .container .body-main-part .right-content .bio .text{  
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 10px;
+ }
+ .main-body .container .body-main-part .right-content .bio .text-1{  
+    font-weight: 750;
+ }
+ .main-body .container .body-main-part .right-content .bio .edit-icon{  
+    font-size: 18px;
+    padding-top: 5px;
+    color:#6ccf6c;
+ }
+/* =========================================================
+**********Reviews page css part starts here**********
+========================================================= */
+
+ /* ===Review Item css part starts here===*/
+.body-content .review-item {
+   border-style: solid;
+   border-width: thin;
+   border-color: #dbdbdb;
+   font-size: 14px;
+   text-align: left;
+   padding:20px;
+   margin-bottom: 15px;
+}
+.body-content .review-item .cont-header .text-1{
+   color: red;
+   font-weight: 500;
+}
+.body-content .review-item .cont-body-1 .product-img{
+   height: 50px;
+   width: 50px;
+   border-style: solid;
+   border-width: thin;
+   border-color: #dbdbdb;
+   margin-top: 10px;
+}
+.body-content .review-item .cont-body-1 .text{
+   color: #6ccf6c;
+   font-weight: 500;
+}
+.body-content .review-item .cont-body-2{
+   padding-top: 10px;
+}
+.body-content .review-item .cont-body-2 .text{
+   font-size: 12px;
+   color: rgba(141, 141, 141, 0.774);
+   font-weight: 500;
+   margin-left: 20px;
+}
+.body-content .review-item .cont-body-2 .text-1{
+   font-size: 12px;
+   color: rgba(141, 141, 141, 0.774);
+   font-weight: 500;
+   margin-left: 20px;
+}
+.body-content .review-item .cont-body-2 p{
+   margin-top: 10px;
+}
+.body-content .review-item .sm-icon .icon{
+   font-size: 20px;
+   margin-right: 10px;
+}
+.body-content .review-item .sm-icon .icon .facebook{
+   color: rgb(6, 97, 158);
+}
+.body-content .review-item .sm-icon .icon .twitter{
+   color: rgb(12, 141, 226);
+}
+.body-content .review-item .sm-icon .icon .email{
+   color: rgb(226, 12, 12);
+}
+.body-content .review-item .sm-icon .icon .copy-link{
+   color: rgb(66, 66, 66);
+}
+.body-content .review-item .cont-body-3{
+   color: rgb(136, 136, 136);
+}
+.body-content .review-item .cont-body-3 .icon{
+   margin-left: 15px;
+}
+.body-content .review-item .cont-body-3 .text{
+   font-size: 12px;
+}
+.body-content .review-item .cont-body-3 .text:hover{
+   color: #6ccf6c;
+}
+
+/* ===right--content- css -part starts here===*/
+
+
+/* ===reviewed categories css--part starts here===*/
+.right-content .rev-product{
+   border-style: solid;
+    border-width: thin;
+    margin-top: 15px;
+    border-color: #dbdbdb;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.right-content .rev-product .text{
+   font-weight: 500;
+   font-size:18px;
+}
+.right-content .rev-product li{
+   font-weight: 500;
+   font-size:14px;
+}
+/* ===product rating css--part starts here===*/
+.right-content .pro-reting{
+   border-style: solid;
+    border-width: thin;
+    margin-top: 15px;
+    border-color: #dbdbdb;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.right-content .pro-reting .text{
+   font-weight: 500;
+   font-size:18px;
+}
+.right-content .pro-reting .rate-line{
+   margin-top: 10px;
+}
+.right-content .pro-reting .rate-line .text-1{
+   font-weight: 500;
+   font-size:14px;
+   color: #6ccf6c;
+}
+.right-content .pro-reting .rate-line .fa{
+   font-size: 14px;
+   color: rgb(157, 161, 165);
+   margin-left: 5px;
+}
+.right-content .pro-reting .rate-line .color{
+   color: rgb(253, 168, 9);
+}
+/* =========================================================
+**********Following page css part starts here**********
+========================================================= */
+
+ /* ===header  css part starts here===*/
+ .body-content .following-header{
+   text-align: center;
+   font-size: 20px;
+   font-weight: 500;
+   margin-top: 50px;
+   border-bottom: solid;
+   border-bottom-width:thin ;
+   border-color: #dbdbdb;
+ }
+ .body-content .following-header .text{
+   color: #6ccf6c;
+ }
+ .body-content .following-header a{
+   color: black;
+ }
+  /* ===paging  css part starts here===*/
+ .body-content .paging{
+   border-top: solid ;
+   border-top-width:thin ;
+   border-bottom: solid;
+   border-bottom-width:thin ;
+   border-color: #dbdbdb;
+   font-size: 12px;
+   font-weight: 500;
+   color: rgb(157, 161, 165);
+   height: 30px;
+   margin-top: 10px;
+ }
+ .body-content .paging a{
+   color: #6ccf6c;
+ }
+  /* ===profile-card css part starts here===*/
+  .body-content .profile-card {
+   border-bottom: solid;
+   border-bottom-width:thin ;
+   border-color: #dbdbdb;
+   padding: 10px;
+   font-size: 14px;
+ }
+ .body-content .profile-card .profile{
+   border-bottom: solid;
+   border-bottom-width:thin ;
+   border-color: #dbdbdb;
+ }
+  .body-content .profile-card img{
+   height: 80px;
+   width: 80px;
+ }
+ .body-content .profile-card .text{
+   color: #6ccf6c;
+ }
+ .body-content .profile-card .text-1{
+   margin-right: 15px;
+ }
+ .body-content .profile-card a{
+   color: #6ccf6c;
+ }
+ .body-content .profile-card .icon{
+   border-style: solid;
+   border-width: thin;
+   border-color: #464646;
+   color: rgb(163, 163, 163);
+   padding: 1px;
+   margin-right: 5px;
+ }
+ /* =========================================================
+**********Notification page css part starts here**********
+========================================================= */
+  /* ===notification css part starts here===*/
+.body-content .notifications{
+   border-bottom: solid;
+   border-bottom-width:thin ;
+   border-color: #dbdbdb;
+   font-size: 15px;
+   padding-bottom: 20px;
+   margin-bottom: 10px;
+}
+.body-content .notifications .notification-header{
+ font-weight: 500;
+ font-size: 20px;
+}
+.body-content .notifications .text{
+   color:#418d41e1;
+}
+.body-content .notifications .date-time{
+   font-size: 11px;
+   color: #737373;
+   padding-top: 3px;
+   font-weight: 500;
+}
+ /* =========================================================
+**********Account details page css part starts here**********
+========================================================= */
+ /* ===header  css part starts here===*/
+ .body-main-part .side-manu .title{
+    margin-top: 20px;
+    padding-left: 30px;
+    font-size: 18px;
+    font-weight: 500;
+ }
+ /* ===header  css part ends here===*/
+
+.body-content .account-details .account-header .text{
+   color: red;
+   font-size: 14px;
+   font-weight: 500;
+   margin-top: 23px;
+
+}
+.body-content .body-details{
+   border-style: solid;
+   border-width: thin;
+   border-color: #bebebe;
+   margin-bottom: 20px;
+}
+.body-content .body-details .personal-details{
+   padding: 20px;
+}
+.body-content .body-details .personal-details .text{
+   margin-bottom: 25px;
+   font-size: 20px;
+   font-weight: 500;
+}
+.body-content .body-details .personal-details .text-1{
+   margin-bottom: 25px;
+   font-size: 14px;
+  font-weight: 500;
+}
+.body-content .body-details .personal-details .text-3{
+   font-size: 13px;
+   color: rgb(163, 163, 163);
+   margin-top: 10px;
+}
+.body-content .body-details .personal-details .star{
+   font-weight: 500;
+   margin-top: 25px;
+   margin-bottom:15px;
+   color: rgb(226, 12, 12);
+}
+.body-content .body-details .personal-details .text-2{
+   font-weight: 500;
+   margin-top: 25px;
+   margin-bottom:15px;
+}
+.body-content .body-details .personal-details .text-4{
+   color: rgb(163, 163, 163);
+   font-size: 13px;
+}
+  /* ===form css part starts here===*/
+
+.body-content .body-details .form{
+   margin-top: 15px;
+   font-weight: 600;
+   padding: 20px;
+   font-size: 15px;
+}
+.body-content .body-details button{
+   border-color: #6ccf6c;
+   background-color: white;
+   color: #6ccf6c;
+}
+.body-content .body-details button:hover{
+   color: white;
+   background-color: #6ccf6c;
+}
+.body-content .body-details .form .text{
+   font-size: 12px;
+   margin-top: 50px;
+   color: rgb(163, 163, 163);
+}
+.body-content .body-details .form .phone{
+   width: 365px;
+}
+.body-content .body-details .form .town{
+   padding-right: 10px;
+}
+.body-content .body-details .form .pin-code{
+   padding-left: 10px;
+}
+ /* =========================================================
+**********Email Alerts page css part starts here**********
+========================================================= */
+.body-content .email-alerts{
+   margin-top: 60px;
+   border-style: solid;
+   border-width: thin;
+   border-color: #bebebe;
+   margin-bottom: 10px;
+}
+.body-content .email-alerts .header{
+   border-bottom-style: solid;
+   border-width: thin;
+   border-color: #bebebe;
+   background:#fafafa;
+   font-size: 14px;
+   font-weight: 500;
+   height: 45px;
+}
+.body-content .email-alerts .header .alerts{
+   padding-top: 5px;
+   padding-left: 10px;
+   margin-top: 5px;
+}
+.body-content .email-alerts .header .e-alerts{
+   padding-top: 5px;
+   text-align: center;
+   margin-top: 5px;
+}
+.body-content .email-alerts .review-body{
+   border-bottom-style: solid;
+   border-width: thin;
+   border-color: #bebebe;
+
+}
+
+.body-content .email-alerts .review-body .text{
+   background-color:#fafafa;
+   height: 40px;
+   padding-top: 6px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+.body-content .email-alerts .review-body .text-1{
+   padding-left: 10px;
+   padding-right: 10px;
+   font-size: 15px;
+   color: black;
+}
+.body-content .email-alerts .review-body .text-2{
+   color: #6ccf6c;
+   padding-left: 10px;
+   padding-right: 10px;
+   font-size: 15px;
+}
+.body-content .email-alerts .review-body a{
+   font-size: 14px;
+   color: #6ccf6c;
+   font-weight: 600;
+}
+.body-content .email-alerts .review-body .check{
+   color: black;
+   margin-right: 10px;
+}
+.body-content .email-alerts .review-body .check-1{
+   margin-bottom: 10px;
+   margin-right: 10px;
+}
+.body-content .email-alerts .review-body .line{
+   padding:0 10px;
+   border-bottom-style: solid;
+   border-width: thin;
+   border-color: #bebebe;
+   height: 35px;
+}
+.body-content .update-btn{
+   background-color: white;
+   color: #6ccf6c;
+   border-color: #6ccf6c;
+}
+.body-content .update-btn:hover{
+   background-color: #6ccf6c;
+   color: white;
+}
+ /* =========================================================
+**********Change Password page css part starts here**********
+========================================================= */
+.body-content .change-password{
+   margin-top: 60px;
+   margin-bottom:10px;
+}
+.body-content .change-password input{
+   width: 200px;
+}
+.body-content .change-password h6{
+   font-size: 14px;
+   padding-top: 10px;
+}
+.body-content .change-password .color{
+   color: #6ccf6c;
+}
+.body-content .change-password .button{
+   color:  #6ccf6c;
+   background: white;
+   margin-left: 355px;
+   border-color: #6ccf6c;
+}
+.body-content .change-password .button:hover{
+   color: white;
+   background: #6ccf6c;
+}
+/* =========================================================
+**********RV Points page css part starts here**********
+========================================================= */
+.body-content .rv-points{
+   margin-top: 60px;
+   border-style: solid;
+   border-width: thin;
+   border-color: #bebebe;
+   padding: 30px;
+   font-size: 14px;
+   font-weight: 500;
+   color: #333333;
+}
+
+.body-content .rv-points .text{
+   padding-left: 285px;
+}
+.body-content .rv-points .text-1{
+   font-weight: 600;
+   color: #ee1717;
+}
+.body-content .rv-points .text-2{
+   font-size: 12px;
+   font-style: italic;
+   color: #737373;
+}
+.body-content .rv-points .text-3{
+   border-style: solid;
+   border-width: thin;
+   border-color: #bebebe;
+   padding: 10px;
+   border-radius: 3px;
+   background-color: #c5c5c5c4;
+   font-size: 13px;
+   text-align: center;
+}
+  /* ===Rv Points Box css part starts here===*/
+  .body-content .rv-points .rv-point-box{
+   margin-top: 30px;
+}
+.body-content .rv-points .rv-point-box .box{
+   border-style: solid;
+   border-width: thin;
+   border-color: #bebebe;
+   padding: 20px;
+   border-radius: 8px;
+   background-color: white;
+   font-size: 20px;
+   text-align: center;
+   
+}
+.body-content .rv-points .rv-point-box .box:hover{
+   color: tomato;
+}
+.body-content .rv-points .rv-point-box .box-1{
+   margin-left: 30px;
+}
+/* =========================================================
+**********Edit Profile page css part starts here**********
+========================================================= */
+.body-content .edit-profile{
+   border-style: solid;
+   border-width: thin;
+   border-color: #bebebe;
+   margin-top: 60px;
+   padding: 30px;
+   background-color: #fafafa;
+}
+.body-content .edit-profile .header .text{
+   font-weight: 500;
+   font-size: 20px;
+}
+.body-content .edit-profile .header button{
+   background-color: white;
+   color: #6ccf6c;
+   border-color: #6ccf6c;
+}
+.body-content .edit-profile .header button:hover{
+   background-color: #6ccf6c;
+   color: white;
+}
+.body-content .edit-profile .birth-date select{
+   margin-left: 25px;
+   border-style: solid;
+   border-width: thin;
+   border-color: #f3f3f3;
+   width: 110px;
+}
+.body-content .edit-profile .edit-profile-form textarea{
+   border-style: solid;
+   border-width: thin;
+   border-color: #f3f3f3;
+   height: 100px;
+   width: 100%;
+}
+.body-content .edit-profile .edit-profile-form .dist-dropdown{
+   border-style: solid;
+   border-width: thin;
+   border-color: #f3f3f3;
+   width: 100%;
+}
+.body-content .edit-profile .edit-profile-form .fav-textarea textarea{
+   width: 98%;
+   margin-top: 10px;
+   margin-right: 5px;
+}
+.body-content .edit-profile .change-photo {
+   padding: 0 20px;
+   position: relative;
+  text-align: center;
+  color: white;
+}
+.body-content .edit-profile .change-photo img{
+   height: 180px;
+   width: 180px;
+   filter: blur(2px);
+}
+.body-content .edit-profile .change-photo .centered{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-30%, -50%);
+}
+.body-content .edit-profile .change-photo .centered a{
+   color: white;
+}
+.body-content .edit-profile .change-photo .centered a:hover{
+   color: #6ccf6c;
+}
+/* =========================================================
+**********Change profile picture page css part starts here**********
+========================================================= */
+.body-content .change-profile-picture{
+   margin-top: 5px;
+   padding: 15px;
+}
+
+.body-content .change-profile-picture img{
+   width: 250px;
+   height: 250px;
+   border-radius: 10px;
+}
+.body-content .change-profile-picture button{
+   background-color: white;
+   color: #6ccf6c;
+   border-color: #6ccf6c;
+}
+.body-content .change-profile-picture button:hover{
+   background-color: #6ccf6c;
+   color: white;
+}
+/* =========================================================
+**********choose-interest  page css part starts here**********
+========================================================= */
+.body-content .choose-interest{
+   border-style: solid;
+   border-width: thin;
+   border-color: #bebebe;
+   margin-top: 60px;
+}
+.body-content .choose-interest .list{
+   font-size: 14px;
+}
+
+/* =========================================================
+**********Content Filter page css part starts here**********
+========================================================= */
+.body-content .content-filters{
+   margin-top: 60px;
+}
+.body-content .content-filters .box{
+   border-style: solid;
+   border-width: thin;
+   border-color: #bebebe;
+}
+.body-content .content-filters button{
+   width: 160px;
+   background-color: white;
+   color: #6ccf6c;
+   border-color: #6ccf6c;
+}
+.body-content .content-filters button:hover{
+   background-color: #6ccf6c;
+   color: white;
+}
+/* =========================================================
+**********Mobiels page css part starts here**********
+========================================================= */
+.body-content .mobiles{
+   margin-top: 60px;
+   font-size: 14px;
+}
+.body-content .mobiles .box{
+   border-style: solid;
+   border-width: thin;
+   border-color: #bebebe;
+}
+.body-content .mobiles .box .status{
+   text-align: center;
+}
+.body-content .mobiles .box .status .red{
+   color: red;
+}
+.body-content .mobiles .box .status .green{
+   color: #6ccf6c;
+}
+.body-content .mobiles .box button{
+   background-color: white;
+   color: #6ccf6c;
+   border-color: #6ccf6c;
+   width: 100px;
+}
+.body-content .mobiles .box button:hover{
+   background-color: #6ccf6c;
+   color: white;
+}
